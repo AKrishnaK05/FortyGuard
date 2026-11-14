@@ -1,4 +1,3 @@
-
 # FortyGuard Temperature MCP — Evaluation Notes
 
 Tested through VS Code Copilot Agent using the configured FortyGuard remote MCP server.
@@ -100,8 +99,7 @@ Activity ID:
 Task ID:
 `9bb3914e-ad6d-4659-aff4-7481fb55c3f1`
 
-Trace ID:
-`3153208b6cbb`
+The trace identifier for this retry has been omitted rather than reproduce an unverified value.
 
 No further retries were performed.
 
