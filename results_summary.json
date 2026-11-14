@@ -2,14 +2,32 @@
   "activity_id": "7ef65b06-13df-44f7-8d93-eb252060e940",
   "status": "Completed",
   "http_status": 200,
+  "location": "Fresno, California",
+  "date": "2026-11-14",
+  "time": "01:00",
+  "temperature_unit": "°C",
   "tile_count": 127,
   "unique_tile_count": 127,
   "tiles_with_temperatures": 127,
-  "temperature_stats": {
+  "api_temperature_statistics": {
     "minimum": 9.0725,
     "maximum": 9.0813,
     "mean": 9.079048031496063,
     "standard_deviation": 0.0025595712188562635
   },
-  "source": "large_area_result.json"
+  "independent_validation": {
+    "unique_tile_ids": 127,
+    "structurally_valid_polygon_geometries_under_original_check": 127,
+    "invalid_geometries_under_original_check": 0,
+    "minimum_matches": true,
+    "maximum_matches": true,
+    "mean_matches": true,
+    "population_standard_deviation_difference_approximately": 0.000010097
+  },
+  "source": "large_area_result.json",
+  "limitations": [
+    "Structural validation does not establish physical temperature accuracy.",
+    "The validation does not establish complete spatial coverage.",
+    "A stricter polygon ring closure and coordinate-range check has been added to analyse_result.py; rerun it locally to obtain the updated counts."
+  ]
 }
