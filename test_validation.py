@@ -1,4 +1,3 @@
-
 import os
 import requests
 from dotenv import load_dotenv
@@ -7,11 +6,15 @@ load_dotenv()
 
 API_KEY = os.getenv("FORTYGUARD_API_KEY")
 
+if not API_KEY:
+    raise RuntimeError("FORTYGUARD_API_KEY is missing. Set it in your .env file.")
+
 headers = {
     "api-key": API_KEY,
     "Content-Type": "application/json"
 }
 
+# Deliberately malformed polygon: coordinates is an empty array.
 payload = {
     "polygon_aoi": {
         "type": "FeatureCollection",
