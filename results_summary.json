@@ -1,0 +1,15 @@
+{
+  "activity_id": "7ef65b06-13df-44f7-8d93-eb252060e940",
+  "status": "Completed",
+  "http_status": 200,
+  "tile_count": 127,
+  "unique_tile_count": 127,
+  "tiles_with_temperatures": 127,
+  "temperature_stats": {
+    "minimum": 9.0725,
+    "maximum": 9.0813,
+    "mean": 9.079048031496063,
+    "standard_deviation": 0.0025595712188562635
+  },
+  "source": "large_area_result.json"
+}
