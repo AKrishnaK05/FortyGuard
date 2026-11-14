@@ -1,8 +1,9 @@
-
 import requests
 
 BASE_URL = "https://api.fortyguard.com"
 
+# This key is deliberately invalid. This test verifies that the API
+# rejects an unknown API key; never replace it with a real credential.
 headers = {
     "api-key": "invalid_test_key_12345"
 }
