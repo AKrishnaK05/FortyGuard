@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fortyguard": {
+      "type": "http",
+      "url": "https://tos-mcp.app.fortyguard.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FORTYGUARD_API_KEY}"
+      }
+    }
+  }
+}
